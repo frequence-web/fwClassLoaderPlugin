@@ -1,0 +1,4 @@
+config/fw_class_loader.yml:
+  class:    fwClassLoaderConfigHandler
+  param:
+    prefix: fw_class_loader_
