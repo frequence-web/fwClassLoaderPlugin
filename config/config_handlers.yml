@@ -1,4 +1,3 @@
 config/fw_class_loader.yml:
   class:    fwClassLoaderConfigHandler
-  param:
-    prefix: fw_class_loader_
+  file: <?php echo sfConfig::get('sf_plugins_dir') ?>/fwClassLoaderPlugin/lib/config/fwClassLoaderConfigHandler.class.php
