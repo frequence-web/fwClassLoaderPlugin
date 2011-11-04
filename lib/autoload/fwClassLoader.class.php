@@ -1,6 +1,6 @@
 <?php
 
-require_once sfConfig::get('sf_lib_dir').'/vendor/symfony2/src/ClassLoader/UniversalClassLoader.php';
+require_once sfConfig::get('sf_lib_dir').'/vendor/symfony2/src/Symfony/Component/ClassLoader/UniversalClassLoader.php';
 
 use Symfony\Component\ClassLoader\UniversalClassLoader;
 
